@@ -32,7 +32,26 @@ write a reflection here, remember that it should be usefull, not a diary entry.
 ### Description & Code
 
 ```C++
-Code Goes Here
+#define LED 3
+int delayVar = 1000;
+int counter = 0;
+void setup() {
+  Serial.begin(9600);
+  pinMode(LED, OUTPUT);
+}
+
+void loop() {
+
+  if (counter < 5) {
+    digitalWrite(LED, HIGH);
+    delay(delayVar);
+    digitalWrite(LED, LOW);
+    delay(delayVar);
+    counter++ ;
+  
+  }
+  Serial.println(counter);
+}
 ```
 
 ### Evidence
