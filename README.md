@@ -25,7 +25,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 Image credit belongs to [Troy Baverstock](https://troybaverstock.com/learn/fritzing-circuit-diagrams/)
 
 ### Reflection
-write a reflection here, remember that it should be usefull, not a diary entry.
+I learned how to use the term counter to make it stop at 5.
 
 ## FiniteLEDBlink
 
